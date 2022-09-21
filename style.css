@@ -1,0 +1,232 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  padding: 1rem;
+}
+.header {
+  display: flex;
+  justify-content: space-around;
+  margin: 2rem;
+}
+.logo {
+  background-color: transparent;
+}
+.logo > img {
+  width: 100px;
+}
+.main {
+  display: flex;
+  gap: 0.5rem;
+  text-align: center;
+  align-items: center;
+}
+li {
+  list-style: none;
+  border: 1px solid rgb(66, 66, 206);
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+}
+.info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 2rem;
+  gap: 1rem;
+}
+.info_request {
+  display: flex;
+  gap: 1.1rem;
+  flex-direction: column;
+  width: 350px;
+  color: #022a5b;
+  align-items: center;
+  text-align: center;
+  margin: 1rem;
+}
+.name {
+  font-size: 24px;
+}
+.convercion {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.title {
+  display: flex;
+  justify-content: center;
+  color: #022a5b;
+  font-size: 24px;
+  font-weight: 600;
+  margin: 1rem;
+}
+.cantidad {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.bol > img {
+  width: 30px;
+  height: 18px;
+}
+.bol > label {
+  color: #022a5b;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.bol > input {
+  width: 150px;
+  border-style: none;
+  background-color: rgb(235, 226, 226);
+  border-radius: 0.6rem;
+  padding: 0.5rem;
+}
+
+.dol > img {
+  width: 30px;
+  height: 18px;
+}
+.dol > label {
+  color: #022a5b;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.dol > input {
+  width: 150px;
+  border-style: none;
+  background-color: rgb(235, 226, 226);
+  border-radius: 0.6rem;
+  padding: 0.5rem;
+}
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  max-width: 500px;
+  margin: 0 auto;
+  background-color: rgb(241, 239, 239);
+  padding: 1rem;
+  border-radius: 1rem;
+  font-size: 18px;
+  margin-top: 4rem;
+}
+.formulario > label {
+  color: #022a5b;
+  padding: 0 0.5rem;
+  display: flex;
+  text-align: start;
+}
+.nombre,
+.email {
+  border: none;
+  border-radius: 1rem;
+  padding: 0.5rem;
+}
+.asunto {
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0.8rem;
+}
+.telefono {
+  padding: 0.6rem;
+  border: none;
+  border-radius: 0.7rem;
+  display: flex;
+  align-items: center;
+}
+.btn {
+  border: none;
+  border-radius: 0.7rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 2rem;
+  color: white;
+  background-color: #022a5b;
+  padding: 0.6rem;
+  font-size: 18px;
+  cursor: pointer;
+}
+section {
+  margin: 2rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+.box {
+  font-weight: 500;
+  font-size: 20px;
+}
+.box_clean {
+  border: none;
+  border-radius: 0.8rem;
+  border: 1px solid #022a5b;
+  padding: 0.5rem;
+  width: 300px;
+}
+section > img {
+  width: 100px;
+}
+footer {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  justify-content: space-around;
+  padding: 1rem;
+}
+.first {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin: 0.5rem;
+}
+.second {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin: 0.5rem;
+}
+.last > li {
+  display: flex;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  gap: 0.5rem;
+}
+svg {
+  width: 40px;
+}
+.link > span {
+  font-weight: 600;
+  text-align: center;
+}
+.link {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+}
+.link > div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+@media screen and (max-width: 600px) {
+  .info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  footer {
+    display: flex;
+    flex-direction: column;
+  }
+}
